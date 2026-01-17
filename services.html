@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>სერვისები</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: #f5f6f8;
+      color: #111;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 16px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      cursor: pointer;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 35px rgba(0,0,0,0.12);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card-content {
+      padding: 16px;
+    }
+
+    .date {
+      font-size: 12px;
+      color: #999;
+      margin-bottom: 6px;
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .back {
+      display: inline-block;
+      margin-bottom: 24px;
+      text-decoration: none;
+      color: #2f80ed;
+      font-weight: 700;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <a class="back" href="index.html">← უკან დაბრუნება</a>
+
+    <div class="grid">
+
+      <div class="card">
+        <img src="https://scontent.ftbs10-1.fna.fbcdn.net/v/t39.30808-6/516449447_24744455395146445_4319622156074567570_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=6oSPcOE96BIQ7kNvwErJVpw&_nc_oc=Adldee2uOMANK6Qt77ZUKO0iHyNmhr0XzOt7y2v5Bg_q6Bgg-gkydK6g6ry8sTjmFiI&_nc_zt=23&_nc_ht=scontent.ftbs10-1.fna&_nc_gid=RPM1YHLDRHMQeov0wZbslQ&oh=00_AfoFTdo8kHORe3GKa7uIhzCCfR_pxWJS7PTwWuCp8fMVuA&oe=697190D7" alt="ფოტო1">
+        <div class="card-content">
+          <div class="date">01 oct 2016</div>
+          <div class="title">სასკოლო პროექტები</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://scontent.ftbs10-1.fna.fbcdn.net/v/t39.30808-6/487508612_1283446543321410_8896088943300575212_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dBC3yJIw69oQ7kNvwEsFln9&_nc_oc=AdlZNy7QXiLPzDO87wWdFCYdeFtm5kroxoZwEMYcvDUDfkPjekimplnE3sLC0nCY2V0&_nc_zt=23&_nc_ht=scontent.ftbs10-1.fna&_nc_gid=-BMTXyPqKIm16efomzq6vQ&oh=00_AfogwCeU5DF78dtOARXmXsAV_m5u1ZdAFD79lKwA9VajCw&oe=69718197" alt="ფოტო2">
+        <div class="card-content">
+          <div class="date">25 apr 2017</div>
+          <div class="title">ბინულის სკოლის ღონისძიება</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://scontent.ftbs10-1.fna.fbcdn.net/v/t39.30808-6/492075157_1300561838276547_1493819220326427908_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ky7wlkH5uh0Q7kNvwHyseuV&_nc_oc=Adl6yUh_a3Dfc1_rSMQkwxyWr0N7Gnwk98nVXxrxqX-lqO-KVBP9sA1dTdh94W4PsM0&_nc_zt=23&_nc_ht=scontent.ftbs10-1.fna&_nc_gid=oar-Pju2_V7RU2d5MnblQA&oh=00_AfrWr3mivEwqTS2Bk1OGxqYyABINHQ1id2aDTRtfPirVDg&oe=6971A948" alt="ფოტო3">
+        <div class="card-content">
+          <div class="date">7 march 2017</div>
+          <div class="title">სასწავლო წელი 2024</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://scontent.ftbs10-1.fna.fbcdn.net/v/t39.30808-6/480885882_1250366316629433_1342120575914396552_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=owsfnC4ADtMQ7kNvwETOHmh&_nc_oc=AdlfMwlAiaqg_OEIFszKDiQtVqBjA_qBKb8M5KJ9Em4Qen94TJGgJEzEsIRD_zmpPww&_nc_zt=23&_nc_ht=scontent.ftbs10-1.fna&_nc_gid=XTbQDs0FWSQip3Wn0ElFYA&oh=00_Afo_lNAmXWAoVV-qrTqWCbDUhi2C1PbUS3B-u8tJYvF1hA&oe=69719455" alt="ფოტო4">
+        <div class="card-content">
+          <div class="date">22 sep 2023</div>
+          <div class="title">სასწავლო წელი 2023: ილიაუნი</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://scontent.ftbs10-1.fna.fbcdn.net/v/t39.30808-6/515503186_24735402786051706_7927094525215064764_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=bW7zzqtyPcIQ7kNvwGIzNJj&_nc_oc=AdlUIyZZGpHLJxID1Cbx5prAjrBsTdyRQcx0YKuLgiysLYrMj_n42-RyBeuNIlI3bA0&_nc_zt=23&_nc_ht=scontent.ftbs10-1.fna&_nc_gid=j6w8rR5AINZ_r7olkXylUg&oh=00_AfqHISUukeQa-crt07_Mxaxiq1M63faDGIepVuOfLSFCxA&oe=69719138" alt="ფოტო5">
+        <div class="card-content">
+          <div class="date">28 dec 2020</div>
+          <div class="title">სასწავლო წელი 2020</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://scontent.ftbs10-1.fna.fbcdn.net/v/t1.6435-9/35881796_2150079101677396_2448331053224427520_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Bzfras7KRSAQ7kNvwH8SB-8&_nc_oc=AdkXO0JPLTZrKNBxzc66Ez27dN13oUs87VY_usj_GHQUqw0ghazUKvTBgKrBwh3h77w&_nc_zt=23&_nc_ht=scontent.ftbs10-1.fna&_nc_gid=AhnPh4MqK9WRSVdrrxdddg&oh=00_AfpVjoUsxL2eZoov8ska0RQ3wddSFWBXlR3tu01lZhuywA&oe=6993121F" alt="ფოტო6">
+        <div class="card-content">
+          <div class="date">21 oct 2023</div>
+          <div class="title">სასწავლო წელი 2023</div>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+</body>
+</html>
